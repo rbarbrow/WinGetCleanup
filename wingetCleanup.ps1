@@ -1,9 +1,8 @@
 <#
-Script will uninstall apps that
+Script will uninstall apps and then upgrade remaining
 
+If your system doesn't have winget already please go to Url: winget.run and click on the install link (top left)
 Comment out any apps you want to keep
-
-
 #>
 
 #Microsoft
@@ -42,6 +41,7 @@ Comment out any apps you want to keep
     winget uninstall Microsoft.WindowsCamera_8wekyb3d8bbwe
     winget uninstall Microsoft.Office.OneNote_8wekyb3d8bbwe
     winget uninstall Microsoft.Messaging_8wekyb3d8bbwe    
+    winget uninstall Microsoft.OneConnect_8wekyb3d8bbwe
     #Groove
     winget uninstall Microsoft.ZuneMusic_8wekyb3d8bbwe 
     # Windows 3D stuff
@@ -79,10 +79,6 @@ Comment out any apps you want to keep
     winget uninstall AD2F1837.HPSystemEventUtility_v10z8vjag6ke6
     winget uninstall HP_Documentation
 
-
-winget uninstall Microsoft.OneConnect_8wekyb3d8bbwe
-
-
   
-
+#upgrade anything left
 winget upgrade --all
