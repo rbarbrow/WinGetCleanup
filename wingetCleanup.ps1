@@ -37,7 +37,8 @@ Comment out any apps you want to keep
     winget uninstall Microsoft.Whiteboard_8wekyb3d8bbwe
     winget uninstall Microsoft.Windows.Photos_8wekyb3d8bbwe
     winget uninstall Microsoft.WindowsAlarms_8wekyb3d8bbwe 
-    winget uninstall Microsoft.WindowsCalculator_8wekyb3d8bbwe  #windows Calculator
+    #windows Calculator
+    #winget uninstall Microsoft.WindowsCalculator_8wekyb3d8bbwe  
     winget uninstall Microsoft.WindowsCamera_8wekyb3d8bbwe
     winget uninstall Microsoft.Office.OneNote_8wekyb3d8bbwe
     winget uninstall Microsoft.Messaging_8wekyb3d8bbwe    
