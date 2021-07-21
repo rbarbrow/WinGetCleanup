@@ -42,6 +42,8 @@ Comment out any apps you want to keep
     winget uninstall Microsoft.Office.OneNote_8wekyb3d8bbwe
     winget uninstall Microsoft.Messaging_8wekyb3d8bbwe    
     winget uninstall Microsoft.OneConnect_8wekyb3d8bbwe
+    #Cortana
+    winget uninstall Microsoft.549981C3F5F10_8wekyb3d8bbwe 
     #Groove
     winget uninstall Microsoft.ZuneMusic_8wekyb3d8bbwe 
     # Windows 3D stuff
@@ -55,14 +57,22 @@ Comment out any apps you want to keep
 
 
 #Other
+    #Expres VPN Promo
     winget uninstall ExpressVPN.ExpressVPN
+    #Dropbox promotion
     winget uninstall C27EB4BA.DropboxOEM_xbfy0k16fey96
+    #Netflix                                      
+    4DF9E0F8.Netflix_mcm4njqhnhss8
     
 
 #McAfee
     winget uninstall "McAfee LiveSafe"
     winget uninstall 5A894077.McAfeeSecurity_wafk5atnkzcwy
     winget uninstall "WebAdvisor by McAfee"
+    #McAfee┬« Personal Security
+    winget uninstall 5A894077.McAfeeSecurity_wafk5atnkzcwy
+    #McAfee LiveSafe
+    winget uninstall MSC  
 
 
 #hp
@@ -80,5 +90,28 @@ Comment out any apps you want to keep
     winget uninstall HP_Documentation
 
   
-#upgrade anything left
+#Dell
+                   
+    #Dell Cinema Guide                              
+    winget uninstall DellInc.DellCinemaGuide_htrsf667h5kn2                
+    #Dell Customer Connect                          
+    winget uninstall DellInc.DellCustomerConnect_htrsf667h5kn2            
+    #Dell Digital Delivery                          
+    winget uninstall DellInc.DellDigitalDelivery_htrsf667h5kn2           
+    #Dell Power Manager                             
+    winget uninstall DellInc.DellPowerManager_htrsf667h5kn2               
+    #Dell SupportAssist for Home PCs                
+    winget uninstall DellInc.DellSupportAssistforPCs_htrsf667h5kn2       
+    #Dell Update                                    
+    #winget uninstall DellInc.DellUpdate_htrsf667h5kn2                     
+    #My Dell                                        
+    winget uninstall DellInc.MyDell_htrsf667h5kn2                         
+    #Dolby Vision                                   
+    winget uninstall DolbyLaboratories.DolbyVisionHDR_rz1tebttyb220
+    #Dell CinemaColor
+    winget uninstall PortraitDisplays.DellCinemaColor_2dgmkzkw4h30c 
+    #Killer Control Center
+    #winget uninstall RivetNetworks.KillerControlCenter_rh07ty8m5nkag  
+
+    #upgrade anything left
 winget upgrade --all
