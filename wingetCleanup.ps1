@@ -62,6 +62,7 @@ Comment out any apps you want to keep
     winget uninstall ExpressVPN.ExpressVPN
     #Dropbox promotion
     winget uninstall C27EB4BA.DropboxOEM_xbfy0k16fey96
+    
     #Netflix                                      
     winget uninstall 4DF9E0F8.Netflix_mcm4njqhnhss8
     
@@ -70,7 +71,7 @@ Comment out any apps you want to keep
     winget uninstall "McAfee LiveSafe"
     winget uninstall 5A894077.McAfeeSecurity_wafk5atnkzcwy
     winget uninstall "WebAdvisor by McAfee"
-    #McAfee┬« Personal Security
+    #McAfee Personal Security
     winget uninstall 5A894077.McAfeeSecurity_wafk5atnkzcwy
     #McAfee LiveSafe
     winget uninstall MSC  
