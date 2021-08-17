@@ -63,7 +63,7 @@ Comment out any apps you want to keep
     #Dropbox promotion
     winget uninstall C27EB4BA.DropboxOEM_xbfy0k16fey96
     #Netflix                                      
-    4DF9E0F8.Netflix_mcm4njqhnhss8
+    winget uninstall 4DF9E0F8.Netflix_mcm4njqhnhss8
     
 
 #McAfee
