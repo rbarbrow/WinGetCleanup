@@ -14,7 +14,7 @@ Comment out any apps you want to keep
        winget uninstall Microsoft.XboxIdentityProvider_8wekyb3d8bbwe
        winget uninstall Microsoft.XboxSpeechToTextOverlay_8wekyb3d8bbwe
        winget uninstall Microsoft.Xbox.TCUI_8wekyb3d8bbwe
-       winget uninstall Microsoft.XboxApp_8wekyb3d8bbwe 
+       winget uninstall Microsoft.XboxApp_8wekyb3d8bbwe
        winget uninstall Microsoft.XboxGameOverlay_8wekyb3d8bbwe
        winget uninstall Microsoft.XboxSpeechToTextOverlay_8wekyb3d8bbwe
        winget uninstall Microsoft.XboxToaster_8wekyb3d8bbwe
@@ -36,9 +36,9 @@ Comment out any apps you want to keep
    winget uninstall Microsoft.People_8wekyb3d8bbwe
    winget uninstall Microsoft.Whiteboard_8wekyb3d8bbwe
    winget uninstall Microsoft.Windows.Photos_8wekyb3d8bbwe
-   winget uninstall Microsoft.WindowsAlarms_8wekyb3d8bbwe 
+   winget uninstall Microsoft.WindowsAlarms_8wekyb3d8bbwe
     #windows Calculator
-    #winget uninstall Microsoft.WindowsCalculator_8wekyb3d8bbwe  
+    #winget uninstall Microsoft.WindowsCalculator_8wekyb3d8bbwe  
    winget uninstall Microsoft.WindowsCamera_8wekyb3d8bbwe
    winget uninstall Microsoft.Office.OneNote_8wekyb3d8bbwe
    winget uninstall Microsoft.Messaging_8wekyb3d8bbwe
@@ -46,7 +46,7 @@ Comment out any apps you want to keep
     #Cortana
     winget uninstall Microsoft.549981C3F5F10_8wekyb3d8bbwe 
     #Groove
-   winget uninstall Microsoft.ZuneMusic_8wekyb3d8bbwe 
+   winget uninstall Microsoft.ZuneMusic_8wekyb3d8bbwe
     # Windows 3D stuff
        winget uninstall Microsoft.MixedReality.Portal_8wekyb3d8bbwe
        winget uninstall Microsoft.Microsoft3DViewer_8wekyb3d8bbwe
@@ -63,7 +63,7 @@ Comment out any apps you want to keep
     #Dropbox promotion
    winget uninstall C27EB4BA.DropboxOEM_xbfy0k16fey96
     #Netflix                                      
-    winget uninstall 4DF9E0F8.Netflix_mcm4njqhnhss8
+    winget uninstall 4DF9E0F8.Netflix_mcm4njqhnhss8
     
 
 #McAfee
@@ -104,7 +104,7 @@ Comment out any apps you want to keep
     #Dell SupportAssist for Home PCs                
    winget uninstall DellInc.DellSupportAssistforPCs_htrsf667h5kn2       
     #Dell Update                                    
-    #winget uninstall DellInc.DellUpdate_htrsf667h5kn2                     
+    #winget uninstall DellInc.DellUpdate_htrsf667h5kn2                     
     #My Dell                                        
    winget uninstall DellInc.MyDell_htrsf667h5kn2                         
     #Dolby Vision                                   
@@ -112,7 +112,7 @@ Comment out any apps you want to keep
     #Dell CinemaColor
    winget uninstall PortraitDisplays.DellCinemaColor_2dgmkzkw4h30c 
     #Killer Control Center
-    #winget uninstall RivetNetworks.KillerControlCenter_rh07ty8m5nkag  
+    #winget uninstall RivetNetworks.KillerControlCenter_rh07ty8m5nkag  
 
     #upgrade anything left
 winget upgrade --all
