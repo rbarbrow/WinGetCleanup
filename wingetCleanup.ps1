@@ -116,5 +116,63 @@ Comment out any apps you want to keep
     #Killer Control Center
     #winget uninstall RivetNetworks.KillerControlCenter_rh07ty8m5nkag  
 
-    #upgrade anything left
-winget upgrade --all
+    #Windows 11
+        #Microsoft Edge                          
+        winget uninstall Microsoft.Edge                                            
+        #Microsoft Edge Update                   
+        winget uninstall Microsoft Edge Update                                      
+        #Microsoft Edge WebView2 Runtime         
+        winget uninstall Microsoft.EdgeWebView2Runtime                       
+        #Microsoft News                          
+        winget uninstall Microsoft.BingNews_8wekyb3d8bbwe                                    
+        #HEIF Image Extensions                   
+        winget uninstall Microsoft.HEIFImageExtension_8wekyb3d8bbwe                   
+        #Microsoft Edge                          
+        #winget uninstall Microsoft.MicrosoftEdge.Stable_8wekyb3d8bbwe                
+        #Office                                  
+        winget uninstall Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe             
+        #Microsoft Solitaire Collection          
+        winget uninstall Microsoft.MicrosoftSolitaireCollection_8wekyb3d8bbwe         
+        #OneDrive                                
+        #winget uninstall Microsoft.OneDriveSync_8wekyb3d8bbwe                       
+        #Paint                                   
+        winget uninstall Microsoft.Paint_8wekyb3d8bbwe                              
+        #Power Automate                          
+        winget uninstall Microsoft.PowerAutomateDesktop_8wekyb3d8bbwe          
+        #Snipping Tool                           
+        winget uninstall Microsoft.ScreenSketch_8wekyb3d8bbwe                         
+        #Microsoft To Do                         
+        winget uninstall Microsoft.Todos_8wekyb3d8bbwe                               
+        #VP9 Video Extensions                    
+        winget uninstall Microsoft.VP9VideoExtensions_8wekyb3d8bbwe               
+        #Web Media Extensions                    
+        winget uninstall Microsoft.WebMediaExtensions_8wekyb3d8bbwe                
+        #Webp Image Extensions                   
+        winget uninstall Microsoft.WebpImageExtension_8wekyb3d8bbwe                
+        #Windows Calculator                      
+        #winget uninstall Microsoft.WindowsCalculator_8wekyb3d8bbwe                  
+        #Windows Notepad                         
+        #winget uninstall Microsoft.WindowsNotepad_8wekyb3d8bbwe                   
+        #Microsoft Store                         
+        #winget uninstall Microsoft.WindowsStore_8wekyb3d8bbwe                     
+        #Windows Terminal                        
+        #winget uninstall Microsoft.WindowsTerminal                            
+        #Microsoft Teams                         
+        winget uninstall MicrosoftTeams_8wekyb3d8bbwe                         
+        #Windows Web Experience Pack             
+        winget uninstall MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy  
+        #Microsoft OneDrive                      
+        winget uninstall Microsoft.OneDrive     
+
+
+
+
+
+
+
+
+
+
+
+#upgrade anything left
+    winget upgrade --all
